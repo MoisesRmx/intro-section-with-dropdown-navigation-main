@@ -1,0 +1,363 @@
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.barra-navegacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 70px;
+}
+
+.bar-nav-menu-lat {
+  display: none;
+}
+
+.barra-navegacion-cont-menus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+}
+
+.bar-nav-menus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  height: 70px;
+}
+
+.snap-logo {
+  width: 84px;
+  height: 27px;
+  cursor: default;
+  margin: 20px;
+}
+
+.bar-nav-menus li, a {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: hsl(0, 0%, 41%);
+}
+
+.bar-nav-menus li:hover, a:hover {
+  color: hsl(0, 0%, 8%);
+}
+
+.btn-dpw {
+  display: flex;
+  justify-content: right;
+}
+
+.btn-dpw p {
+  display: inline;
+  font-size: 1rem;
+}
+
+.btn-ctnm {
+  display: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: hsl(0, 0%, 98%);
+  position: absolute;
+  top: 70px;
+  width: 170px;
+  height: 160px;
+  padding: 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px 5px hsl(0, 0%, 41%, 50%);
+}
+
+.btn-ctnm li {
+  color: hsl(0, 0%, 41%);
+  text-align: left;
+}
+
+.btn-ctnm.activo {
+  display: flex;
+}
+
+.btn-ctno {
+  width: 130px;
+}
+
+.btn-ctno img {
+  padding: 0 10px;
+}
+
+.btn-dpwCp {
+  display: flex;
+  justify-content: left;
+}
+
+.btn-dpwCp p {
+  display: inline;
+  font-size: 1rem;
+}
+
+.btn-ctnmCp {
+  display: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: hsl(0, 0%, 98%);
+  position: absolute;
+  top: 70px;
+  width: 120px;
+  height: 130px;
+  padding: 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px 5px hsl(0, 0%, 41%, 50%);
+}
+
+.btn-ctnmCp li {
+  color: hsl(0, 0%, 41%);
+}
+
+.btn-ctnmCp.activo {
+  display: flex;
+}
+
+.btn-ctnoCp {
+  width: 75px;
+}
+
+.log {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 290px;
+  height: 70px;
+}
+
+.log a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 40px;
+  color: hsl(0, 0%, 41%);
+}
+
+.log-login:hover {
+  color: hsl(0, 0%, 8%);
+}
+
+.log-register {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 41%);
+  border: solid 2px hsl(0, 0%, 41%);
+  border-radius: 15px;
+}
+
+.log-register a {
+  color: hsl(0, 0%, 41%);
+}
+
+.log-register:hover {
+  border-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 8%);
+
+}
+
+.content-odt {
+  display: flex;
+  justify-content: space-between;
+  width: 1400px;
+}
+
+.seccion-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 700px;
+}
+
+.seccion-1 h1 {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 6.5rem;
+  font-weight: 700;
+  margin: 80px 0 0 0;
+  color: hsl(0, 0%, 8%);
+}
+
+.seccion-1 h2 {
+  width: 610px;
+  font-family: 'Epilogue', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 41%);
+  margin: 0 0 0 0;
+}
+
+.seccion-1 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-family: 'Epilogue', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 70px 0;
+  border-radius: 15px;
+  width: 170px;
+  height: 60px;
+  cursor: pointer;
+  color: hsl(0, 0%, 98%);
+  border: solid 2px hsl(0, 0%, 8%);
+}
+
+.seccion-1 a:hover {
+  border: solid 2px hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 8%);
+  background-color: hsl(0, 0%, 98%);
+}
+
+.odt-mas {
+  display: flex;
+  justify-content: space-between;
+  width: 650px;
+  height: 30px;
+}
+
+.odt-m-img {
+  width: auto;
+  height: 30px;
+}
+
+.odt-imagen-bk {
+  background-image: url(images/image-hero-desktop.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 525px;
+  height: 700px;
+}
+
+@media (max-width: 630px) {
+  .barra-navegacion {
+    width: 100vw;
+  }
+
+  .bar-nav-menu-lat {
+    display: inline;
+    background-image: url(images/icon-menu.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+  }
+
+  .bar-nav-menu-lat.activo {
+    background-image: url(images/icon-close-menu.svg);
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    z-index: 100;
+  }
+
+  .barra-navegacion-cont-menus {
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: -250px;
+    background-color: blue;
+    width: 250px;
+    height: 100vh;
+    transform: translateX(0);
+    transition: 0.2s linear;
+  }
+
+  .barra-navegacion-cont-menus.activo {
+    /* display: flex; */
+    right: 0px;
+  }
+
+  .bar-nav-menus {
+    margin-top: 80px;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: beige;
+    padding: 0;
+    width: 250px;
+    height: 200px;
+  }
+
+  .bar-nav-menus li p {
+    padding: 0;
+    margin: 0;
+  }
+
+  .content-odt {
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .seccion-1 {
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+  }
+
+  .seccion-1 h1 {
+    text-align: center;
+    font-size: 2.3rem;
+    width: 100vw;
+    margin: 0;
+  }
+
+  .seccion-1 h1 br {
+    display: none;
+  }
+
+  .seccion-1 h2 {
+    width: 93vw;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1rem;
+    margin: 30px 0;
+  }
+
+  .odt-mas {
+    width: 100vw;
+  }
+
+  .seccion-1 a {
+    margin: 0 0 50px 0;
+  }
+
+  .odt-m-img {
+    height: 20px;
+  }
+
+  .odt-imagen-bk {
+    background-image: url(images/image-hero-mobile.png);
+    width: 375px;
+    height: 320px;
+    margin-top: 100px;
+  }
+}
